@@ -1,5 +1,5 @@
 {% set name = "geoip2" %}
-{% set version = "4.0.2" %}
+{% set version = "4.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4afb5d899eac08444e461239c8afb165c90234adc0b5dc952792d9da74c9091b
+  sha256: f150bed3190d543712a17467208388d31bd8ddb49b2226fba53db8aaedb8ba89
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -30,7 +30,7 @@ about:
   license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
-  summary: 'IP address geolocation library for Maxmind DBs'
+  summary: IP address geolocation library for Maxmind DBs
 
 extra:
   recipe-maintainers:
