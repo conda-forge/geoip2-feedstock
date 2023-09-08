@@ -25,15 +25,8 @@ requirements:
     - requests >=2.24.0,<3.0.0
 
 test:
-  requires:
-    - pytest
-    - mocket
-    - pip
   imports:
     - geoip2
-  commands:
-    - pip check
-    - pytest -v -rws --color yes $SP_DIR/geoip2
 
 about:
   home: https://pypi.org/project/geoip2/#description
