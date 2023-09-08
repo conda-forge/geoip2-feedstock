@@ -30,6 +30,7 @@ test:
 
 about:
   home: https://pypi.org/project/geoip2/#description
+  dev_url: https://github.com/maxmind/GeoIP2-python
   license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
