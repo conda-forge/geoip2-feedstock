@@ -34,6 +34,7 @@ about:
   license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
+  license_url: https://opensource.org/license/apache-2-0/
   summary: IP address geolocation library for Maxmind DBs
 
 extra:
