@@ -5,9 +5,11 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/geoip2-feedstoc
 
 Home: https://pypi.org/project/geoip2/#description
 
-Package license: Apache-2.0
+Package license: [Apache-2.0](https://opensource.org/license/apache-2-0/)
 
 Summary: IP address geolocation library for Maxmind DBs
+
+Development: https://github.com/maxmind/GeoIP2-python
 
 Current build status
 ====================
