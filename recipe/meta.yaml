@@ -1,13 +1,13 @@
 {% set name = "geoip2" %}
-{% set version = "4.8.0" %}
+{% set version = "5.1.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: dd9cc180b7d41724240ea481d5d539149e65b234f64282b231b9170794a9ac35
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: ee3f87f0ce9325eb6484fe18cbd9771a03d0a2bad1dd156fa3584fafa562d39a
 
 build:
   noarch: python
